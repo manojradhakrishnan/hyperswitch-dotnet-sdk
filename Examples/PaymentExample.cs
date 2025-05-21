@@ -12,7 +12,7 @@ namespace HyperSwitch.SDK.Examples
         public static async Task Main(string[] args)
         {
             // Replace with your actual API key
-            var apiKey = "";
+            var apiKey = "snd_ALvdmLc1uvvBFYMPeKQGvYhx3mSjtxDTGU1rm020D54BB2DhUFLFC7A26aGEhW7I";
             
             // Initialize the client with configuration
             var config = new HyperSwitchConfiguration(apiKey);
@@ -315,7 +315,6 @@ namespace HyperSwitch.SDK.Examples
             {
                 ["payment_id"] = paymentId,
                 ["amount"] = 2000, // Same amount as the payment
-                ["currency"] = "USD",
                 ["reason"] = "customer_requested",
                 ["metadata"] = new Dictionary<string, string>
                 {
