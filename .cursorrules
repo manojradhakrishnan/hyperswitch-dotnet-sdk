@@ -1,0 +1,38 @@
+# HyperSwitch .NET SDK - Project Intelligence
+
+## Coding Patterns
+- Use XML documentation on all public members
+- Follow Microsoft's C# coding conventions
+- Use PascalCase for class and property names
+- Use camelCase for method parameters
+- Use async/await for all API calls
+- Include ConfigureAwait(false) on all awaited tasks
+- Use nullable reference types where appropriate
+
+## Implementation Notes
+- The SDK uses a layered architecture (Client, API, Models)
+- Serialization automatically converts between snake_case (API) and PascalCase (.NET)
+- Error handling is comprehensive with custom HyperSwitchApiException
+- The client supports both strongly-typed models and dictionary-based flexibility
+- All public methods are asynchronous with Task return types
+
+## Development Workflow
+- Add XML documentation to all new public members
+- Ensure backward compatibility with existing code
+- Add unit tests for new functionality
+- Test against the HyperSwitch sandbox environment
+- Keep README documentation updated with new features
+
+## Project-Specific Knowledge
+- HyperSwitch API uses snake_case for all parameters
+- API communication is done over HTTPS with API key authentication
+- The SDK supports multiple .NET versions (6.0, 7.0, 8.0, 9.0)
+- Error handling is critical for payment processing
+- Comprehensive logging helps with debugging integration issues
+
+## Known Challenges
+- Keeping up with HyperSwitch API changes
+- Balancing strongly-typed safety with flexibility
+- Ensuring backward compatibility while adding features
+- Managing serialization/deserialization edge cases
+- Supporting multiple .NET versions effectively 
