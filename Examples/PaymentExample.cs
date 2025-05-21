@@ -12,7 +12,7 @@ namespace HyperSwitch.SDK.Examples
         public static async Task Main(string[] args)
         {
             // Replace with your actual API key
-            var apiKey = "snd_ALvdmLc1uvvBFYMPeKQGvYhx3mSjtxDTGU1rm020D54BB2DhUFLFC7A26aGEhW7I";
+            var apiKey = "your_api_key";
             
             // Initialize the client with configuration
             var config = new HyperSwitchConfiguration(apiKey);
