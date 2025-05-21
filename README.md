@@ -1,6 +1,6 @@
 # HyperSwitch .NET SDK
 
-The official .NET SDK for [HyperSwitch](https://hyperswitch.io), providing a convenient interface to the HyperSwitch Payments API.
+The community built .NET SDK for [HyperSwitch](https://hyperswitch.io), providing a convenient interface to the HyperSwitch Payments API.
 
 ## Features
 
