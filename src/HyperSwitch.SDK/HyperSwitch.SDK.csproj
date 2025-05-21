@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HyperSwitch.SDK</RootNamespace>
+    <AssemblyName>HyperSwitch.SDK</AssemblyName>
+    <PackageId>HyperSwitch.SDK</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>HyperSwitch</Authors>
+    <Description>Official .NET SDK for HyperSwitch Payment APIs</Description>
+    <PackageTags>hyperswitch;payment;api;sdk</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="7.0.1" />
+  </ItemGroup>
+
+</Project> 

@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92EBF927-5A44-4BCF-8E78-2A3DEC6C96DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSwitch.SDK", "src\HyperSwitch.SDK\HyperSwitch.SDK.csproj", "{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D3FCDD1D-7BE9-416F-8E1F-96AAAC2E66E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSwitch.SDK.Tests", "tests\HyperSwitch.SDK.Tests\HyperSwitch.SDK.Tests.csproj", "{99C33982-27C0-4542-A1DC-A7A39C0F572D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{FABB8F02-9C0D-4D4E-8817-1962A3040E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C33982-27C0-4542-A1DC-A7A39C0F572D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C33982-27C0-4542-A1DC-A7A39C0F572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C33982-27C0-4542-A1DC-A7A39C0F572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C33982-27C0-4542-A1DC-A7A39C0F572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF6809FD-8A86-4CE5-B9C2-D22D8F2E21FE} = {92EBF927-5A44-4BCF-8E78-2A3DEC6C96DC}
+		{99C33982-27C0-4542-A1DC-A7A39C0F572D} = {D3FCDD1D-7BE9-416F-8E1F-96AAAC2E66E6}
+		{AAED7DBC-7350-4AA6-AA8A-E0F32CD8F858} = {FABB8F02-9C0D-4D4E-8817-1962A3040E14}
+	EndGlobalSection
+EndGlobal
